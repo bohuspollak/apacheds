@@ -50,7 +50,13 @@ If you have some extra data you want to put into Directory, you can place a file
 > Pull request for contributions are always WELCOME! :)
 
 
+## Composer
+### Create volume
+docker volume create --name apacheds_bootstrap_vol --driver local
+docker inspect apacheds_bootstrap_vol
 
+### Build image
+docker-compose -f docker-compose.yml up
 
 
 [1]: https://directory.apache.org/apacheds/

@@ -404,7 +404,7 @@ objectClass: top
 objectClass: organizationalUnit
 entryParentId: 1d99a275-a477-43bb-960c-af4a1dbaaa79
 
-dn: ads-partitionId=dev.com,ou=partitions,ads-directoryServiceId=default,ou=conf
+dn: ads-partitionId=actinolix.net,ou=partitions,ads-directoryServiceId=default,ou=conf
  ig
 ads-contextEntry:: ZG46IGRjPWRldixkYz1jb20Kb2JqZWN0Y2xhc3M6IGRvbWFpbgpvYmplY3Rjb
  GFzczogdG9wCmRjOiBkZXYKCg==
@@ -414,14 +414,14 @@ objectClass: ads-partition
 objectClass: ads-base
 objectClass: ads-jdbmPartition
 ads-enabled: TRUE
-ads-partitionSuffix: dc=dev,dc=com
+ads-partitionSuffix: dc=actinolix,dc=net
 entryUUID: fb518b1e-88af-4433-8495-89f9b930ae96
-ads-partitionId: dev.com
+ads-partitionId: actinolix.net
 ads-partitionCacheSize: 100
 ads-partitionSyncOnWrite: TRUE
 entryParentId: e5e48e9e-e4e0-4e1b-8175-cf4874752fcc
 
-dn: ou=indexes,ads-partitionId=dev.com,ou=partitions,ads-directoryServiceId=defa
+dn: ou=indexes,ads-partitionId=actinolix.net,ou=partitions,ads-directoryServiceId=defa
  ult,ou=config
 entryCSN: 20150708110355.229000Z#000000#000#000000
 entryUUID: 3860efde-be02-43db-8912-6853aa65ede1
@@ -430,7 +430,7 @@ objectClass: top
 objectClass: organizationalUnit
 entryParentId: fb518b1e-88af-4433-8495-89f9b930ae96
 
-dn: ads-indexAttributeId=apacheAlias,ou=indexes,ads-partitionId=dev.com,ou=parti
+dn: ads-indexAttributeId=apacheAlias,ou=indexes,ads-partitionId=actinolix.net,ou=parti
  tions,ads-directoryServiceId=default,ou=config
 ads-indexHasReverse: FALSE
 entryCSN: 20150708110355.324000Z#000000#000#000000
@@ -443,7 +443,7 @@ ads-enabled: TRUE
 entryUUID: e516839c-8648-4958-8a93-8f063f73a24e
 entryParentId: 3860efde-be02-43db-8912-6853aa65ede1
 
-dn: ads-indexAttributeId=apacheOneAlias,ou=indexes,ads-partitionId=dev.com,ou=pa
+dn: ads-indexAttributeId=apacheOneAlias,ou=indexes,ads-partitionId=actinolix.net,ou=pa
  rtitions,ads-directoryServiceId=default,ou=config
 ads-indexHasReverse: FALSE
 entryCSN: 20150708110355.241000Z#000000#000#000000
@@ -456,7 +456,7 @@ ads-enabled: TRUE
 entryUUID: d88aa101-b17a-4974-9a36-5e01ce8074b7
 entryParentId: 3860efde-be02-43db-8912-6853aa65ede1
 
-dn: ads-indexAttributeId=apacheOneLevel,ou=indexes,ads-partitionId=dev.com,ou=pa
+dn: ads-indexAttributeId=apacheOneLevel,ou=indexes,ads-partitionId=actinolix.net,ou=pa
  rtitions,ads-directoryServiceId=default,ou=config
 ads-indexHasReverse: FALSE
 entryCSN: 20150708110355.301000Z#000000#000#000000
@@ -469,7 +469,7 @@ ads-enabled: TRUE
 entryUUID: 33ae8bd6-4b5b-47b9-9769-6b67afc8a717
 entryParentId: 3860efde-be02-43db-8912-6853aa65ede1
 
-dn: ads-indexAttributeId=apachePresence,ou=indexes,ads-partitionId=dev.com,ou=pa
+dn: ads-indexAttributeId=apachePresence,ou=indexes,ads-partitionId=actinolix.net,ou=pa
  rtitions,ads-directoryServiceId=default,ou=config
 ads-indexHasReverse: FALSE
 entryCSN: 20150708110355.248000Z#000000#000#000000
@@ -482,7 +482,7 @@ ads-enabled: TRUE
 entryUUID: 40413469-f031-465d-a381-0126e6cce2e6
 entryParentId: 3860efde-be02-43db-8912-6853aa65ede1
 
-dn: ads-indexAttributeId=apacheRdn,ou=indexes,ads-partitionId=dev.com,ou=partiti
+dn: ads-indexAttributeId=apacheRdn,ou=indexes,ads-partitionId=actinolix.net,ou=partiti
  ons,ads-directoryServiceId=default,ou=config
 ads-indexHasReverse: FALSE
 entryCSN: 20150708110355.332000Z#000000#000#000000
@@ -495,7 +495,7 @@ ads-enabled: TRUE
 entryUUID: 26a82925-b2a9-46d5-8946-64fa7a5f645d
 entryParentId: 3860efde-be02-43db-8912-6853aa65ede1
 
-dn: ads-indexAttributeId=apacheSubAlias,ou=indexes,ads-partitionId=dev.com,ou=pa
+dn: ads-indexAttributeId=apacheSubAlias,ou=indexes,ads-partitionId=actinolix.net,ou=pa
  rtitions,ads-directoryServiceId=default,ou=config
 ads-indexHasReverse: FALSE
 entryCSN: 20150708110355.277000Z#000000#000#000000
@@ -508,7 +508,7 @@ ads-enabled: TRUE
 entryUUID: f5e1172e-d257-4162-baa3-ab3d668b73f5
 entryParentId: 3860efde-be02-43db-8912-6853aa65ede1
 
-dn: ads-indexAttributeId=apacheSubLevel,ou=indexes,ads-partitionId=dev.com,ou=pa
+dn: ads-indexAttributeId=apacheSubLevel,ou=indexes,ads-partitionId=actinolix.net,ou=pa
  rtitions,ads-directoryServiceId=default,ou=config
 ads-indexHasReverse: FALSE
 entryCSN: 20150708110355.315000Z#000000#000#000000
@@ -521,7 +521,7 @@ ads-enabled: TRUE
 entryUUID: 555aa6a2-1160-4409-8a61-3cc6fb7fc910
 entryParentId: 3860efde-be02-43db-8912-6853aa65ede1
 
-dn: ads-indexAttributeId=dc,ou=indexes,ads-partitionId=dev.com,ou=partitions,ads
+dn: ads-indexAttributeId=dc,ou=indexes,ads-partitionId=actinolix.net,ou=partitions,ads
  -directoryServiceId=default,ou=config
 ads-indexHasReverse: FALSE
 entryCSN: 20150708110355.235000Z#000000#000#000000
@@ -534,7 +534,7 @@ ads-enabled: TRUE
 entryUUID: 19777b83-7fa5-4fd7-bce1-1fa93317f294
 entryParentId: 3860efde-be02-43db-8912-6853aa65ede1
 
-dn: ads-indexAttributeId=entryCSN,ou=indexes,ads-partitionId=dev.com,ou=partitio
+dn: ads-indexAttributeId=entryCSN,ou=indexes,ads-partitionId=actinolix.net,ou=partitio
  ns,ads-directoryServiceId=default,ou=config
 ads-indexHasReverse: FALSE
 entryCSN: 20150708110355.261000Z#000000#000#000000
@@ -547,7 +547,7 @@ ads-enabled: TRUE
 entryUUID: e8ff4859-46b0-4936-9939-8d07e0880ee8
 entryParentId: 3860efde-be02-43db-8912-6853aa65ede1
 
-dn: ads-indexAttributeId=entryUUID,ou=indexes,ads-partitionId=dev.com,ou=partiti
+dn: ads-indexAttributeId=entryUUID,ou=indexes,ads-partitionId=actinolix.net,ou=partiti
  ons,ads-directoryServiceId=default,ou=config
 ads-indexHasReverse: FALSE
 entryCSN: 20150708110355.254000Z#000000#000#000000
@@ -560,7 +560,7 @@ ads-enabled: TRUE
 entryUUID: 6ecdb578-19a9-4404-9eed-1c44e49f062f
 entryParentId: 3860efde-be02-43db-8912-6853aa65ede1
 
-dn: ads-indexAttributeId=krb5PrincipalName,ou=indexes,ads-partitionId=dev.com,ou
+dn: ads-indexAttributeId=krb5PrincipalName,ou=indexes,ads-partitionId=actinolix.net,ou
  =partitions,ads-directoryServiceId=default,ou=config
 ads-indexHasReverse: FALSE
 entryCSN: 20150708110355.269000Z#000000#000#000000
@@ -573,7 +573,7 @@ ads-enabled: TRUE
 entryUUID: 1eaeba76-8bd3-4a98-be81-a22151e82ac5
 entryParentId: 3860efde-be02-43db-8912-6853aa65ede1
 
-dn: ads-indexAttributeId=objectClass,ou=indexes,ads-partitionId=dev.com,ou=parti
+dn: ads-indexAttributeId=objectClass,ou=indexes,ads-partitionId=actinolix.net,ou=parti
  tions,ads-directoryServiceId=default,ou=config
 ads-indexHasReverse: FALSE
 entryCSN: 20150708110355.295000Z#000000#000#000000
@@ -586,7 +586,7 @@ ads-enabled: TRUE
 entryUUID: f5f2fd7b-9a31-493e-9232-fbe04d807305
 entryParentId: 3860efde-be02-43db-8912-6853aa65ede1
 
-dn: ads-indexAttributeId=ou,ou=indexes,ads-partitionId=dev.com,ou=partitions,ads
+dn: ads-indexAttributeId=ou,ou=indexes,ads-partitionId=actinolix.net,ou=partitions,ads
  -directoryServiceId=default,ou=config
 ads-indexHasReverse: FALSE
 entryCSN: 20150708110355.286000Z#000000#000#000000
@@ -599,7 +599,7 @@ ads-enabled: TRUE
 entryUUID: 36ac79eb-748d-491f-b188-7c6178d70d0d
 entryParentId: 3860efde-be02-43db-8912-6853aa65ede1
 
-dn: ads-indexAttributeId=uid,ou=indexes,ads-partitionId=dev.com,ou=partitions,ad
+dn: ads-indexAttributeId=uid,ou=indexes,ads-partitionId=actinolix.net,ou=partitions,ad
  s-directoryServiceId=default,ou=config
 ads-indexHasReverse: FALSE
 entryCSN: 20150708110355.308000Z#000000#000#000000
@@ -906,10 +906,10 @@ ads-krbEncryptionTypes: aes128-cts-hmac-sha1-96
 ads-krbEncryptionTypes: des3-cbc-sha1-kd
 ads-krbEncryptionTypes: des-cbc-md5
 ads-krbAllowableClockSkew: 300000
-ads-krbPrimaryRealm: EXAMPLE.COM
+ads-krbPrimaryRealm: ACTINOLIX.NET
 ads-krbForwardableAllowed: TRUE
 ads-krbEmptyAddressesAllowed: TRUE
-ads-searchBaseDN: ou=users,dc=example,dc=com
+ads-searchBaseDN: ou=users,dc=actinolix,dc=net
 ads-krbPostdatedAllowed: TRUE
 ads-krbPAEncTimestampRequired: TRUE
 ads-krbRenewableAllowed: TRUE
@@ -969,12 +969,12 @@ ads-maxPDUSize: 2000000
 entryCSN: 20150708110354.992000Z#000000#000#000000
 ads-confidentialityRequired: FALSE
 ads-maxSizeLimit: 1000
-ads-saslHost: ldap.example.com
+ads-saslHost: ldap.actinolix.net
 ads-maxTimeLimit: 15000
-ads-searchBaseDN: ou=users,dc=dev,dc=com
-ads-saslRealms: example.com
+ads-searchBaseDN: ou=users,dc=actinolix,dc=net
+ads-saslRealms: actinolix.net
 ads-saslRealms: apache.org
-ads-saslPrincipal: ldap/ldap.example.com@EXAMPLE.COM
+ads-saslPrincipal: ldap/ldap.actinolix.net@ACTINOLIX.NET
 ads-replPingerSleep: 5
 ads-replEnabled: TRUE
 ads-enabled: TRUE
