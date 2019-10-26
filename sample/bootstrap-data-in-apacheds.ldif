@@ -1,29 +1,12 @@
-dn: ads-partitionId=actinolix,ou=partitions,ads-directoryServiceId=default,ou=config
-objectclass: top
-objectClass: ads-base
-objectclass: ads-partition
-objectclass: ads-jdbmPartition
-ads-partitionSuffix: dc=actinolix,dc=net
-ads-contextentry:: ZG46IGRjPWFjdGlub2xpeCxkYz1uZXRcbmRjOiBhY3Rpbm9saXhcbm9iamVjdGNsYXNzOiBkb21haW5cbm9iamVjdGNsYXNzOiB0b3AK
-ads-jdbmpartitionoptimizerenabled: TRUE
-ads-partitioncachesize: 10000
-ads-partitionsynconwrite: TRUE
-ads-partitionid: example
-ads-enabled: TRUE
-
-dn: dc=actinolix,dc=net
-dc: actinolix
-objectclass: domain
-objectclass: top
-<<<<<<< HEAD
-
-=======
+dn: uid=rodian.androne,ou=users,dc=actinolix,dc=net
+changetype: add
 objectclass: inetOrgPerson
+objectclass: top
 objectclass: person
-objectclass: organizationalPerson
-cn: Bohus Pollak
-sn: Pollak Pollak
-mail: bohus.pollak@actinolix.com
-uid: bohus.pollak
-userPassword: xxxxxxx
->>>>>>> 5cff753dea57d0c5a18e29f6770708c7c16f61b8
+cn: Rodian
+sn: rodian androne
+mail: rodian.androne@actinolix.com
+uid: rodian.androne
+userpassword: gsOIrIgL
+
+
