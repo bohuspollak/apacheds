@@ -50,14 +50,29 @@ If you have some extra data you want to put into Directory, you can place a file
 > Pull request for contributions are always WELCOME! :)
 
 
-## Composer
+## Composer with custom config for organization "actinolix"
 ### Create volume
-docker volume create --name apacheds_bootstrap_vol --driver local
-docker inspect apacheds_bootstrap_vol
+	docker volume create --name apacheds_data_vol --driver local
+	docker volume create --name apacheds_bootstrap_vol --driver local
+	docker inspect apacheds_bootstrap_vol
 
-### Build image
-docker-compose -f docker-compose.yml up
+### copy customized bootstrap file
 
+####copy the user specific file  ./samples/bootstrap-data-in-apacheds.ldif to 
+	docker inspect apacheds_bootstrap_vol  | grep Mountpoint | awk  '{print $2}'
+
+### create partition manually as per:
+https://directory.apache.org/apacheds/basic-ug/1.4.3-adding-partition.html
+
+###
+	cp ./sample/bootstrap-data-in-apacheds.ldif "/var/lib/docker/volumes/apacheds_bootstrap_vol/_data"
+	cp ./sample/config.ldif "/var/lib/docker/volumes/apacheds_bootstrap_vol/_data"
+
+### Re-Build image
+	docker-compose -f docker-compose.yaml up --force-recreate
+
+## Start
+	docker-compose up -d
 
 [1]: https://directory.apache.org/apacheds/
 [2]: https://github.com/greggigon/apacheds-docker-container/tree/master/sample

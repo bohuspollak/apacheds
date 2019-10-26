@@ -15,4 +15,15 @@ dn: dc=actinolix,dc=net
 dc: actinolix
 objectclass: domain
 objectclass: top
+<<<<<<< HEAD
 
+=======
+objectclass: inetOrgPerson
+objectclass: person
+objectclass: organizationalPerson
+cn: Bohus Pollak
+sn: Pollak Pollak
+mail: bohus.pollak@actinolix.com
+uid: bohus.pollak
+userPassword: xxxxxxx
+>>>>>>> 5cff753dea57d0c5a18e29f6770708c7c16f61b8

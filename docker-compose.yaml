@@ -2,6 +2,9 @@ version: '2'
 
 services:
   apacheds:
+    build:
+     context: .
+     dockerfile: Dockerfile
     restart: always
     image: greggigon/apacheds
     ports:
@@ -9,9 +12,13 @@ services:
     command:
       - --loglevel warning
     volumes:
-    - /apacheds_bootstrap_vol:/bootstrap:Z
+    - apacheds_data_vol:/data:Z
+    - apacheds_bootstrap_vol:/bootstrap:Z
     environment:
+    - BOOTSTRAP_FILE=/bootstrap/bootstrap-data-in-apacheds.ldif
     - DEBUG=false
 volumes:
   apacheds_bootstrap_vol:
+    external: true
+  apacheds_data_vol:
     external: true
