@@ -1,15 +1,18 @@
-dn: ou=users,dc=actinolix,dc=net
-changetype: add
+dn: ads-partitionId=actinolix,ou=partitions,ads-directoryServiceId=default,ou=config
 objectclass: top
-objectclass: organizationalUnit
-ou: users
+objectClass: ads-base
+objectclass: ads-partition
+objectclass: ads-jdbmPartition
+ads-partitionSuffix: dc=actinolix,dc=net
+ads-contextentry:: ZG46IGRjPWFjdGlub2xpeCxkYz1uZXRcbmRjOiBhY3Rpbm9saXhcbm9iamVjdGNsYXNzOiBkb21haW5cbm9iamVjdGNsYXNzOiB0b3AK
+ads-jdbmpartitionoptimizerenabled: TRUE
+ads-partitioncachesize: 10000
+ads-partitionsynconwrite: TRUE
+ads-partitionid: example
+ads-enabled: TRUE
 
-dn: uid=bohus.pollak,ou=users,dc=actinolix,dc=net
-changetype: add
+dn: dc=actinolix,dc=net
+dc: actinolix
+objectclass: domain
 objectclass: top
-objectclass: users
-cn: Bohus
-sn: Pollak
-email: bohus.pollak@actinolix.com
-uid: bohus.pollak
 
