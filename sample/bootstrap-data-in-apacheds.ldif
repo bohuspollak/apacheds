@@ -7,9 +7,11 @@ ou: users
 dn: uid=bohus.pollak,ou=users,dc=actinolix,dc=net
 changetype: add
 objectclass: top
-objectclass: users
-cn: Bohus
-sn: Pollak
-email: bohus.pollak@actinolix.com
+objectclass: inetOrgPerson
+objectclass: person
+objectclass: organizationalPerson
+cn: Bohus Pollak
+sn: Pollak Pollak
+mail: bohus.pollak@actinolix.com
 uid: bohus.pollak
-
+userPassword: xxxxxxx
